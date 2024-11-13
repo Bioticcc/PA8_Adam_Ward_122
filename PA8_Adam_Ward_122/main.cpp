@@ -1,4 +1,8 @@
-#include "Header.h";
+#include "Header.h"
+#include "BST.h"
+#include "TranNode.h"
+#include "Node.h"
+
 
 int main() {
 
@@ -16,5 +20,12 @@ int main() {
 	- 
 	*/
 
+	BST T;
+	T.insert("one", 1);
+	T.insert("two", 2);
+	T.insert("three", 3);
+	T.insert("four", 4);
+	T.insert("five", 5);
+	T.inOrderTraversal();
 
 }

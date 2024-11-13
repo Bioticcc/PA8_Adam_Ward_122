@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{FA88B6C2-E227-4C00-8CA1-8D767C1512E6}|PA8_Adam_Ward_122.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA88B6C2-E227-4C00-8CA1-8D767C1512E6}|PA8_Adam_Ward_122.vcxproj|C:\\Users\\jeezu\\Documents\\GitHub\\PA8_Adam_Ward_122\\PA8_Adam_Ward_122\\Header.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FA88B6C2-E227-4C00-8CA1-8D767C1512E6}|PA8_Adam_Ward_122.vcxproj|solutionrelative:Header.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FA88B6C2-E227-4C00-8CA1-8D767C1512E6}|PA8_Adam_Ward_122.vcxproj|C:\\Users\\jeezu\\Documents\\GitHub\\PA8_Adam_Ward_122\\PA8_Adam_Ward_122\\BST.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FA88B6C2-E227-4C00-8CA1-8D767C1512E6}|PA8_Adam_Ward_122.vcxproj|solutionrelative:BST.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA88B6C2-E227-4C00-8CA1-8D767C1512E6}|PA8_Adam_Ward_122.vcxproj|C:\\Users\\jeezu\\Documents\\GitHub\\PA8_Adam_Ward_122\\PA8_Adam_Ward_122\\func.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FA88B6C2-E227-4C00-8CA1-8D767C1512E6}|PA8_Adam_Ward_122.vcxproj|solutionrelative:func.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FA88B6C2-E227-4C00-8CA1-8D767C1512E6}|PA8_Adam_Ward_122.vcxproj|C:\\Users\\jeezu\\Documents\\GitHub\\PA8_Adam_Ward_122\\PA8_Adam_Ward_122\\TranNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FA88B6C2-E227-4C00-8CA1-8D767C1512E6}|PA8_Adam_Ward_122.vcxproj|solutionrelative:TranNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA88B6C2-E227-4C00-8CA1-8D767C1512E6}|PA8_Adam_Ward_122.vcxproj|C:\\Users\\jeezu\\Documents\\GitHub\\PA8_Adam_Ward_122\\PA8_Adam_Ward_122\\Node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FA88B6C2-E227-4C00-8CA1-8D767C1512E6}|PA8_Adam_Ward_122.vcxproj|solutionrelative:Node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA88B6C2-E227-4C00-8CA1-8D767C1512E6}|PA8_Adam_Ward_122.vcxproj|C:\\Users\\jeezu\\Documents\\GitHub\\PA8_Adam_Ward_122\\PA8_Adam_Ward_122\\Header.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FA88B6C2-E227-4C00-8CA1-8D767C1512E6}|PA8_Adam_Ward_122.vcxproj|solutionrelative:Header.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,7 +40,7 @@
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\jeezu\\Documents\\GitHub\\PA8_Adam_Ward_122\\PA8_Adam_Ward_122\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAADAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-21T17:35:12.908Z",
               "IsPinned": true,
@@ -40,30 +48,56 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "func.cpp",
-              "DocumentMoniker": "C:\\Users\\jeezu\\Documents\\GitHub\\PA8_Adam_Ward_122\\PA8_Adam_Ward_122\\func.cpp",
-              "RelativeDocumentMoniker": "func.cpp",
-              "ToolTip": "C:\\Users\\jeezu\\Documents\\GitHub\\PA8_Adam_Ward_122\\PA8_Adam_Ward_122\\func.cpp",
-              "RelativeToolTip": "func.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-21T17:35:13.789Z",
+              "DocumentIndex": 1,
+              "Title": "BST.h",
+              "DocumentMoniker": "C:\\Users\\jeezu\\Documents\\GitHub\\PA8_Adam_Ward_122\\PA8_Adam_Ward_122\\BST.h",
+              "RelativeDocumentMoniker": "BST.h",
+              "ToolTip": "C:\\Users\\jeezu\\Documents\\GitHub\\PA8_Adam_Ward_122\\PA8_Adam_Ward_122\\BST.h",
+              "RelativeToolTip": "BST.h",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAABQAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-28T23:19:04.124Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "TranNode.h",
+              "DocumentMoniker": "C:\\Users\\jeezu\\Documents\\GitHub\\PA8_Adam_Ward_122\\PA8_Adam_Ward_122\\TranNode.h",
+              "RelativeDocumentMoniker": "TranNode.h",
+              "ToolTip": "C:\\Users\\jeezu\\Documents\\GitHub\\PA8_Adam_Ward_122\\PA8_Adam_Ward_122\\TranNode.h",
+              "RelativeToolTip": "TranNode.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-28T22:59:33.835Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Node.h",
+              "DocumentMoniker": "C:\\Users\\jeezu\\Documents\\GitHub\\PA8_Adam_Ward_122\\PA8_Adam_Ward_122\\Node.h",
+              "RelativeDocumentMoniker": "Node.h",
+              "ToolTip": "C:\\Users\\jeezu\\Documents\\GitHub\\PA8_Adam_Ward_122\\PA8_Adam_Ward_122\\Node.h",
+              "RelativeToolTip": "Node.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-28T22:42:09.201Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Header.h",
               "DocumentMoniker": "C:\\Users\\jeezu\\Documents\\GitHub\\PA8_Adam_Ward_122\\PA8_Adam_Ward_122\\Header.h",
               "RelativeDocumentMoniker": "Header.h",
               "ToolTip": "C:\\Users\\jeezu\\Documents\\GitHub\\PA8_Adam_Ward_122\\PA8_Adam_Ward_122\\Header.h",
               "RelativeToolTip": "Header.h",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-08-21T17:35:14.864Z",
-              "EditorCaption": ""
+              "IsPinned": true
             }
           ]
         }
