@@ -21,11 +21,16 @@ int main() {
 	*/
 
 	BST T;
-	T.insert("one", 1);
 	T.insert("two", 2);
 	T.insert("three", 3);
 	T.insert("four", 4);
+	T.insert("one", 1);
 	T.insert("five", 5);
+	cout << "Printing Tree:\n";
 	T.inOrderTraversal();
+	cout << "\nLocating Nodes:\n";
+	TranNode& smallestNode = T.findSmallest();
+	TranNode& largestNode = T.findLargest();
 
+	
 }

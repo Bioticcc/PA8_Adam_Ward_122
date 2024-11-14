@@ -14,7 +14,9 @@ public:
 	void setLchi(Node* ptr) { Lchi = ptr; }
 	void setRchi(Node* ptr) { Rchi = ptr; }
 	virtual void printData() = 0;
-	virtual ~Node() { cout << "deconstructing Node\n"; }
+	virtual ~Node() { 
+		//cout << "deconstructing Node\n"; 
+		}
 
 protected:
 	string data;

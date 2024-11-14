@@ -20,42 +20,61 @@ public:
 		printTree(root);
 	}
 
+	TranNode& findSmallest() {
+		if (!root) {
+			throw std::runtime_error("Tree empty!");
+		}
+		Node* curr = root;
+		while (curr->getLchi()) {
+			curr = curr->getLchi();
+		}
+		TranNode* nodeT = dynamic_cast<TranNode*>(curr);
+		if (!nodeT)throw std::runtime_error("Node is not TranNode");
+		cout << "smallest node: " << curr->getData() << ", " << nodeT->getUnits() << std::endl;
+		return *nodeT;
+	}
+
+	TranNode& findLargest() {
+		if (!root) {
+			throw std::runtime_error("Tree empty!");
+		}
+		Node* curr = root;
+		while (curr->getRchi()) {
+			curr = curr->getRchi();
+		}
+		TranNode* nodeT = dynamic_cast<TranNode*>(curr);
+		if (!nodeT)throw std::runtime_error("Node is not TranNode");
+		cout << "largest node: " << curr->getData() << ", " << nodeT->getUnits() << std::endl;
+		return *nodeT;
+	}
+
+
+
 	~BST() {
 		cout << "\nDestroying Tree...\n";
 		destroyTree(root);
 	}
 
+
+
 private:
 	Node* root;
 	//using dynamic_cast to access information inside TranRoot:
 	
-	Node* insert(Node*& root, string data, int n) {
+	Node* insert(Node*& root, const string& data, int n) {
 
 		if (root == nullptr) {
-			cout << "inserting node containing: " << data << ", " << n << std::endl;
-			TranNode* newNode = new TranNode(data, n);
-			return newNode;
+			//cout << "inserting node containing: " << data << ", " << n << std::endl;
+			root = new TranNode(data, n);
+			return root;
 		}
 
 		//using dynamic_cast to access information inside TranRoot:
-		Node* Lchi = root->getLchi();
-		Node* Rchi = root->getRchi();
 		TranNode* nodeT = dynamic_cast<TranNode*>(root);
-		TranNode* LchiT = dynamic_cast<TranNode*>(Lchi);
-		TranNode* RchiT = dynamic_cast<TranNode*>(Rchi);
 
-		/*
-		if (root->getData() < root->getLchi()->getData()) {  
- 			root->setLchi(insert(root->getLchi(), data, n));
-		}
-		if (root->getData() > root->getRchi()->getData()) {
-			root->setRchi(insert(root->getRchi(), data, n));
-		}
-		*/
-		if (n < LchiT->getUnits()) {
+		if (n < nodeT->getUnits()) {
 			root->setLchi(insert(root->getLchi(), data, n));
-		}
-		if (n > RchiT->getUnits()) {
+		} else {
 			root->setRchi(insert(root->getRchi(), data, n));
 		}
 		return root;
@@ -75,8 +94,6 @@ private:
 		destroyTree(root->getRchi());
 		delete root;
 	}
-
-
 
 
 

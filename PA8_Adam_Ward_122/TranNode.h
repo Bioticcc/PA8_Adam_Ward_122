@@ -15,7 +15,8 @@ public:
 	}
 
 	~TranNode() {
-		cout << "deconstructing TranNode\n";}
+		//cout << "deconstructing TranNode\n";
+		}
 private:
 	int units;
 };
