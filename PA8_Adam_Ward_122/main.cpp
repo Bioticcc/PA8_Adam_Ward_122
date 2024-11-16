@@ -2,7 +2,7 @@
 #include "BST.h"
 #include "TranNode.h"
 #include "Node.h"
-
+#include "DataAnalysis.h"
 
 int main() {
 
@@ -18,8 +18,7 @@ int main() {
 	- Abstract class Node
 	- Class TransactionNode witch inherits Node
 	- 
-	*/
-
+	
 	BST T;
 	T.insert("two", 2);
 	T.insert("three", 3);
@@ -31,6 +30,10 @@ int main() {
 	cout << "\nLocating Nodes:\n";
 	TranNode& smallestNode = T.findSmallest();
 	TranNode& largestNode = T.findLargest();
-
+	*/
 	
+	DataAnalysis D;
+	D.runAnalysis();
+	
+
 }

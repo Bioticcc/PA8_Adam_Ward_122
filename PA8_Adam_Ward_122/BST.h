@@ -30,7 +30,6 @@ public:
 		}
 		TranNode* nodeT = dynamic_cast<TranNode*>(curr);
 		if (!nodeT)throw std::runtime_error("Node is not TranNode");
-		cout << "smallest node: " << curr->getData() << ", " << nodeT->getUnits() << std::endl;
 		return *nodeT;
 	}
 
@@ -44,7 +43,6 @@ public:
 		}
 		TranNode* nodeT = dynamic_cast<TranNode*>(curr);
 		if (!nodeT)throw std::runtime_error("Node is not TranNode");
-		cout << "largest node: " << curr->getData() << ", " << nodeT->getUnits() << std::endl;
 		return *nodeT;
 	}
 

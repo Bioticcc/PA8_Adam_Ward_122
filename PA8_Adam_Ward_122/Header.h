@@ -28,6 +28,7 @@ using std::cin;
 using std::string;
 using std::vector;
 using std::endl;
+using namespace std;
 
 
 #endif 

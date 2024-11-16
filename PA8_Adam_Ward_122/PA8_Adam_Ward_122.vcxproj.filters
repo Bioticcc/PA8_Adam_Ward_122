@@ -51,4 +51,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="data.csv">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
 </Project>

@@ -11,7 +11,7 @@ public:
 	void setUnits(int n) { units = n; }
 	void printData() { 
 		//cout << "\nTESTING TESTING\n";
-		cout << "Data: " << getData() << "|Units: " << units << std::endl; 
+		cout << getData() << "|" << units << std::endl; 
 	}
 
 	~TranNode() {
